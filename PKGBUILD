@@ -1,7 +1,7 @@
 # Maintainer: Alex Peyser <peyser.alex.public@gmail.com>
 pkgname=suspend-pci
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc="Remove pci devices before suspend"
 arch=('any')
 url=""
