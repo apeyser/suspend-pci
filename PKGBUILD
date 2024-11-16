@@ -9,7 +9,8 @@ license=('BSD')
 depends=()
 makedepends=()
 source=(suspend-pci.sh suspend-pci.conf)
-sha256sums=('9d38390048f96ca680b80af7dda10880ca5670fd40481af9fd218f1d1175e51d'
+backup=(/etc/suspend-pci.conf)
+sha256sums=('e372c3784ce9dfe0212e728fa36dd4d6f09c0087a2a4a3781efc027f535c3905'
             'e9ff84f422b0fef8931943a0e86827cf0d408ca4c6e93998508c682bb3eebf21')
 
 package() {
