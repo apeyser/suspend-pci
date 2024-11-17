@@ -14,3 +14,7 @@ will let suspend/resume on systemd with TongFang GM6IX8B work
 The conf file should be filled with unique `grep` strings from `lscpi -D`; 
 each line is tested against the output with `grep` and the first field is 
 `cut` as the pci-bus address used to remove the device.
+
+=== pacman
+
+This is an arch PKGBUILD directory (`makepkg -si`)
