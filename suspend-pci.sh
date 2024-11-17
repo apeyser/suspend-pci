@@ -4,7 +4,7 @@
 
 pre() {
     local -a devices
-    readarray -t devices < <(</etc/suspend-pci.conf)
+    readarray -t devices </etc/suspend-pci.conf
     local device
     for device in "${devices[@]}"; do
         # Filter out empty & comment lines
